@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    Movement movement = null;
+    [SerializeField] Movement _movement = null;
 
 }
