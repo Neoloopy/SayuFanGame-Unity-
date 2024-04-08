@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5415193037463511090}
   - component: {fileID: 869305599251848353}
-  - component: {fileID: 3826801511062746787}
+  - component: {fileID: 3415423385736483835}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &869305599251848353
 MonoBehaviour:
@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325e27dcbac5a8f469f1b99589171b00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3826801511062746787
+  sounds: []
+--- !u!114 &3415423385736483835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,6 +55,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4009989124852711962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6d97eac10a78924c9e8b704277e873d, type: 3}
+  m_Script: {fileID: 11500000, guid: 297ac5d62b2fa9249aac16cdf4872e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _scene: 0
