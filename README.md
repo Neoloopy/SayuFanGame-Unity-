@@ -1,7 +1,7 @@
 # Sayu Fan Game / Temp Title: Goddess Re:Sync
-Personal Soft Deadline: **June**
+Personal Soft Deadline: **June 2024**
 
-Personal Hard Deadline: **July**
+Personal Hard Deadline: **July 2024**
 
 Polish before Final publication on **August 10, 2024**
 
