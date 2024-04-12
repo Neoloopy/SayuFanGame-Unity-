@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class ArtifactManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // technically an inventory system for the player
+    // the gacha manager handles the logic of which
+    // objects to instantiate
+    [SerializeField] GameObject _player;
+    [SerializeField] List<ArtifactSO> artifacts = new List<ArtifactSO>();
 }
