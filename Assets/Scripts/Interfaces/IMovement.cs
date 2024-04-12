@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IMovement
 {
-    void Move();
+    void Move(Vector2 direction);
 }
