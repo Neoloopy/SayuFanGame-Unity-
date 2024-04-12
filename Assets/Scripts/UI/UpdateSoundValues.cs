@@ -18,7 +18,6 @@ public class UpdateSoundValues : MonoBehaviour, IInteractable
     /// <summary>
     /// Changes the volume based on slider values
     /// </summary>
-
     void ChangeVolume()
     {
         _audioManager.ChangeVolume(_slider.value, _audioType);

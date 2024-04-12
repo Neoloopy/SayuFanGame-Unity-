@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ShopManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] ArtifactManager artifactManager;
+    [SerializeField] WeaponManager weaponManager;
+    void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (artifactManager == null)
+            artifactManager = gameObject.GetComponent<ArtifactManager>();
+        if (weaponManager == null)
+            weaponManager = gameObject.GetComponent<WeaponManager>();
     }
 }

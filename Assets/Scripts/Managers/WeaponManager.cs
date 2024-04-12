@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Handles the gacha system of weapons
+    [SerializeField] GameObject _player;
+    [SerializeField] GameObject _pointer;
+    [SerializeField] List<WeaponSO> weapons = new List<WeaponSO>();
 }
