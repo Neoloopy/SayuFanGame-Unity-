@@ -7,5 +7,5 @@ public class WeaponManager : MonoBehaviour
     // Handles the gacha system of weapons
     [SerializeField] GameObject _player;
     [SerializeField] GameObject _pointer;
-    [SerializeField] List<WeaponSO> weapons = new List<WeaponSO>();
+    [SerializeField] List<GameObject> weapons = new List<GameObject>();
 }

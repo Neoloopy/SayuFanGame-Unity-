@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54c284cf644e574da79cdaa9c8d4b37, type: 3}
+  m_Name: OrbiralWeaponSO
+  m_EditorClassIdentifier: 
+  objectName: 
+  description: 
+  defaultSprite: {fileID: 0}
+  weight: 0
+  effect: 0
+  damage: 0
+  critRate: 0
+  critDamage: 0
+  attackSpeed: 0
+  attackDelay: 0
+  hitLimit: 0
+  hitCooldown: 0
+  radius: 0
+  type: 4
+  projectilePrefab: {fileID: 3808786467262302791, guid: fd5b3f85f033aa64fa4e452e4537dd3b, type: 3}

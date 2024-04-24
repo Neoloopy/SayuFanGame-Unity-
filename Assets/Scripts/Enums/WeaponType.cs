@@ -3,5 +3,6 @@ public enum WeaponType
     Melee,
     Range,
     Multishot,
-    Summon
+    Summon,
+    Orbital
 }

@@ -5,7 +5,7 @@ public class WeaponSO : ItemSO {
     public int damage;
     public float critRate;
     public int critDamage;
-    public virtual void Attack(){}
+    public virtual void Attack(Transform point){}
 
     public float attackSpeed;
     public float attackDelay;

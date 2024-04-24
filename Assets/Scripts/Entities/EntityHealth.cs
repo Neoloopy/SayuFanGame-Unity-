@@ -44,7 +44,7 @@ public class EntityHealth : MonoBehaviour, IHealth
         while (true)
         {
             yield return new WaitForSeconds(_regenerationRate);
-            Debug.Log("Regenerating");
+            // Debug.Log("Regenerating");
             var regeneratedHealth = (int)((float)_baseHealth * _regenerationAmount) + _baseHealth;
             _baseHealth = Mathf.Clamp(regeneratedHealth, 0, _maxHealth);
         }

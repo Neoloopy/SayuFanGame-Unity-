@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PlayerBehavior : MonoBehaviour
 {
     [SerializeField] EntityState state = EntityState.Idle;
-    CharacterSO character;
+    [SerializeField] CharacterSO character;
     public CharacterSO GetCharacter { get { return character; } }
     PlayerControls controls;
     IMovement _movement;
